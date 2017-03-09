@@ -27,6 +27,6 @@ const WorkerSchema = new Schema({
   geometry: GeoSchema
 });
 
-const Worker = mongoose.model('ninja', WorkerSchema);
+const Worker = mongoose.model('worker', WorkerSchema);
 
 module.exports = Worker;
