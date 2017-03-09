@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+*.log
+*.iml
+*.cab
+*.msi
+*.msm
+*.msp
+*.exe
+*.idea

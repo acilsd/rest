@@ -1,0 +1,26 @@
+{
+  "name": "restful",
+  "version": "0.0.1",
+  "description": "null",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.2",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.8.6",
+    "nodemon": "^1.11.0"
+  }
+}
