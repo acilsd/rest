@@ -17,7 +17,7 @@ app.use(compression());
 app
   .use(express.static('public'))
   .use(bodyParser.json())
-  .use('/api', require('./controller/api'))
+  .use('/api', require('./routes/api'))
   .use((err, req, res, next) => {
     console.log(err);
     res.status(422).send({error: err.message});
